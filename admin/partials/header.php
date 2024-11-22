@@ -37,10 +37,15 @@
         </ul>
 
         <!-- Search Bar -->
-        <div id="navbarSearch" class="navbar-search w-100 collapse">            
-            <input class="form-control w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search">
-        </div>
-    </header>
+<div id="navbarSearch" class="navbar-search w-100 collapse">
+    <!-- Search Input Field -->
+    <div class="input-group">
+        <input class="form-control rounded-0 border-0" type="text" placeholder="Search" aria-label="Search" id="searchInput">
+        <button class="btn btn-outline-secondary" type="button" id="searchButton" aria-label="Search Button">
+            <i class="fas fa-search"></i> <!-- FontAwesome Search Icon -->
+        </button>
+    </div>
+</div>
 
     <!-- Main Content Area -->
     <div class="container-fluid">
